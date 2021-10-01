@@ -102,12 +102,27 @@ public class Manage{
 3. 다중 연결리스트 (Multiply Linked List)
 4. 원형 연결리스트 (Circular Linked List)
 
+
+### 주요 메서드
+```java
+    isEmpty();                  //비었는지 확인
+    add(<T> item);              //추가
+    get(int index);             //데이터 값만 가져오기
+    remove(int index);          //삭제
+    size();                     //크기 반환
+
+```
+
+
 ## 2. 스택(Stack)
 ***
 
 ### 정의
 * 스택은 더미를 쌓다라는 Stack이라는 어원에서 따온 개념이다. 들어가는 입구와 나가는 출구가 같은 방향인 구조를 지니고 있다.
 때문에 제일 나중에 쌓인 것이 제일 먼저 나오는 후입선출(Last In First Out) 구조를 가지고 있다.
+
+
+
 
 ###왜써요 이거 ?
 ~~입구를 두개만들기 귀찮아서 한개만 쓰려고!!~~
@@ -138,7 +153,18 @@ public class Manage{
 2. LIFO 구조에 어긋나는 행동에서 불편함을 유발한다. 
    + ex) stack 구조에서 중간에있는 값만 뺀다거나... (이러면 안된다.)
 
+### 주요 메서드 
 
+```java
+
+    isEmpty();                  //큐가 비었는지 확인
+    push(<t> items);            //아이템 삽입
+    pop();                      //아이템 삭제
+    peek();                     //top 아이템 반환
+    search(Object o);           //해당 아이템의 index 반환
+    size();                     //해당 스택의 아이템 갯수를 반환
+
+```
 
 ## 3.큐 (Queue)
 ***
@@ -166,7 +192,17 @@ public class Manage{
    + 배열로 이루어진 큐라면, 꺼낼 때마다 하나씩 자료를 앞으로 밀어야하고, 크기가 제한되어 오버플로우 발생 위험도 있다.
 
 
+### 주요 메서드
 
+```java
+
+    isEmpty();                  //큐가 비었는지 확인
+    add(<t> items);             //아이템 삽입
+    poll();                     //아이템 삭제 ( 출구 에서 삭제)
+    peek();                     //top 아이템 반환
+    search(Object o);           //해당 아이템의 index 반환
+    size();                     //해당 스택의 아이템 갯수를 반환
+```
 
 ## 4. Deque
 ***
@@ -203,7 +239,24 @@ public class Manage{
 
 * 글쎄... 순혈이아닌 혼종이란게 단점아닐까 ?😄😄
 
+```java
+        //First 출구 Last 입구
+        isEmpty();                  //큐가 비었는지 확인
+        add(<t> items);             //Rear 쪽으로삽입
+        addFirst(<t> items);        //Front 쪽으로 삽입
+        pollFisrt();                //Rear에서 아이템을 뺀 후 값 반환
+        pollLast();                 //Front에서 아이템을 뺀 후 값 리턴
+        peekFisrt();                //Front 아이템 반환
+        peekLast();                 //Rear 아이템 반환
+        search(Object o);           //해당 아이템의 index 반환
+        size();                     //해당 스택의 아이템 갯수를 반환
+```
+ 
 
+## 문제 선택
+***
+스택 계열 문제 silver 3 : https://www.acmicpc.net/problem/15815
+덱 계열 문제 silver 1 : https://www.acmicpc.net/problem/20923
 
 
 ##Reference📑
