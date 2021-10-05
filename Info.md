@@ -21,8 +21,8 @@
 
 #📃목차 📃
 ***
-### 1. day1_study - Linked-list,Stack,Queue,Deque
-### 2. day2_study
+### 1. day1_study - Linear Data Structure  (Linked-list,Stack,Queue,Deque)
+### 2. day2_study - Non-Linear Data Structure (Binary Tree , Binary Search Tree , AVL Tree, Heap )
 
 
 

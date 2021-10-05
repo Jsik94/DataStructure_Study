@@ -1,4 +1,13 @@
 #Day1
+***
+Study date : 2021.10.01
+
+
+참여자 : J-sik 외 1명
+
+
+주제 : 선형 자료 구조
+
 
 ## 1. 연결리스트 (Linked List)
 ***
@@ -253,10 +262,15 @@ public class Manage{
 ```
  
 
+
+
 ## 문제 선택
 ***
 스택 계열 문제 silver 3 : https://www.acmicpc.net/problem/15815
+
+
 덱 계열 문제 silver 1 : https://www.acmicpc.net/problem/20923
+
 
 
 ##Reference📑
@@ -268,3 +282,5 @@ public class Manage{
 * ###heejeong kwon 님의 Stack Queue 구현
   + stack : https://gmlwjd9405.github.io/2018/08/03/data-structure-stack.html
   + queue : https://gmlwjd9405.github.io/2018/08/02/data-structure-queue.html
+
+Study date : 2021.10.01
